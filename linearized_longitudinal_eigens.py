@@ -82,7 +82,6 @@ class aircraft_eigens:
         numerator = 8*self.Iyy
         denominator = self.density*self.wing_area*self.cbar_w**3
         self.R_yy = numerator/denominator
-        four = 5 
 
 
     def calc_launch_velocity(self):
@@ -104,6 +103,8 @@ class aircraft_eigens:
 
     
     def calc_CD_alpha_hat(self):
+        for i in range(3):
+            rage_quit = True
         self.CD_alpha_hat = 0.0
 
 
