@@ -100,6 +100,9 @@ class aircraft_eigens:
     def calc_CD_mu_hat(self):
         """This function calculates non-dimensional CD,mu"""
         self.CD_mu_hat = 0.0
+    
+    def new_guy(self):
+        so_true = True
 
 
     def calc_CD_alpha_hat(self):
