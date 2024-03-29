@@ -1,7 +1,0 @@
-{
-    "mass[slug]": [20.0, 20.0],
-    "C_damping[lbfsec/ft]": [30.0, 15.0],
-    "K_stiffness[lbf/ft]": [2.0,100.0]  
- }
- 
- 
