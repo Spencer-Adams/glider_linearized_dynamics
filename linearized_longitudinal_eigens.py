@@ -74,8 +74,8 @@ class aircraft_eigens:
     def calc_R_rho_y(self):
         """This function is a non-dimensional mass component in the x direction"""
         numerator = 4*self.weight/self.gravity
-        denominator = self.density*self.wing_area*self.wing_span
-        self.R_rho_y = numerator/denominator
+        denominatee = self.density*self.wing_area*self.wing_span
+        self.R_rho_y = numerator/denominatee
 
 
     def calc_R_yy(self):
