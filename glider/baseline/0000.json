@@ -1,0 +1,53 @@
+{
+    "aircraft" : {
+        "name" : "Baseline Glider",
+        "launch_kinetic_energy[ft-lbf]" : 4.5,
+        "wing_area[ft^2]" : 6.75,
+        "wing_span[ft]" : 9,
+        "weight[lbf]" : 1.1013,
+        "Ixx[slugs*ft^2]" : 0.0708,
+        "Iyy[slugs*ft^2]" : 0.0527,
+        "Izz[slugs*ft^2]" : 0.1196,
+        "Ixy[slugs*ft^2]" : 0.0,
+        "Ixz[slugs*ft^2]" : 0.0023,
+        "Iyz[slugs*ft^2]" : 0.0
+    },
+    "analysis" : {
+        "density[slugs/ft^3]" : 0.0020664
+    },
+    "aerodynamics" : {
+        "CL" : {
+            "0" : 0.628,
+            "alpha" : 5.478,
+            "qbar" : 2.3594,
+            "alpha_hat" : 0.7557
+        },
+        "CY" : {
+            "beta" : -0.3795,
+            "pbar" : -0.3336,
+            "rbar" : 0.3481
+        },
+        "CD" : {
+            "L0" : 0.0138,
+            "L" : -0.00753,
+            "L2" : 0.0391,
+            "qbar" : 0.1241
+        },
+        "Cl" : {
+            "beta" : -0.1423,
+            "pbar" : -0.6309,
+            "rbar" : 0.2747
+        },
+        "Cm" : {
+            "0" : -0.0046,
+            "alpha" : -1.3102,
+            "qbar" : -9.7591,
+            "alpha_hat" : -1.9067
+        },
+        "Cn" : {
+            "beta" : 0.0856,
+            "pbar" : -0.053,
+            "rbar" : -0.0793
+        }
+    }
+}
