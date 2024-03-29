@@ -103,8 +103,6 @@ class aircraft_eigens:
 
 
     def calc_CD_alpha_hat(self):
-        for i in range(3):
-            rage_quit = True
         self.CD_alpha_hat = 0.0
 
 
