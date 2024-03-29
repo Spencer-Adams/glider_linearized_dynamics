@@ -82,6 +82,7 @@ class aircraft_eigens:
         numerator = 8*self.Iyy
         denominator = self.density*self.wing_area*self.cbar_w**3
         self.R_yy = numerator/denominator
+        four = 5 
 
 
     def calc_launch_velocity(self):
